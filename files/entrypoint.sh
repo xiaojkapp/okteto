@@ -6,6 +6,14 @@ UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
 WEB_USERNAME=${WEB_USERNAME:-'admin'}
 WEB_PASSWORD=${WEB_PASSWORD:-'password'}
 
+
+# Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
+ARGO_AUTH='{"AccountTag":"f2b1b993ad19cbb0c5c84a2cd633e202","TunnelSecret":"MOqkQzp6J+VfZJw/17ar6Ik2EL0t8xAeGYg8prP8U70=","TunnelID":"6ec5f4db-735d-4fff-86b6-05bc9e239aa1"}'
+ARGO_DOMAIN=okt.xfpq.tk
+
+
+
+
 generate_config() {
   cat > config.json << EOF
 {
