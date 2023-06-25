@@ -2,7 +2,7 @@
   "name": "express-hello-world",
   "version": "1.0.0",
   "description": "Express Hello World",
-  "main": "server.js",
+  "main": "bb.js",
   "repository": "https://github.com/fscarmen2/X-for-Okteto",
   "author": "fscarmen",
   "license": "MIT",
